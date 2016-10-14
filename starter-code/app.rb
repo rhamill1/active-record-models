@@ -22,3 +22,5 @@ binding.pry
   diddy.name = "Diddy"
   diddy.save
 # 7) Destroy "Diddy"
+  diddy = Artist.find_by_name("Diddy")
+  diddy.destroy
